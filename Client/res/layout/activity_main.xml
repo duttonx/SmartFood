@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollContent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <EditText
+            android:id="@+id/productsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Продукты в наличии"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/photoButton"
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="cookies?"
+            app:srcCompat="@drawable/ic_photo" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Адрес"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/generateButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/deep_teal"
+            android:text="Сгенерировать диету" />
+    </LinearLayout>
+</ScrollView>

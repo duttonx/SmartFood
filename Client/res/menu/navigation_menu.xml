@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/item_main" android:id="@+id/mainItem" android:icon="@drawable/ic_home"/>
+    <item android:title="@string/item_bank" android:id="@+id/bankItem" android:icon="@drawable/ic_wallet"/>
+    <item android:title="@string/item_sickness" android:id="@+id/sicknessItem" android:icon="@drawable/ic_sickness"/>
+    <item android:title="@string/item_physique" android:id="@+id/physiqueItem" android:icon="@drawable/ic_physique"/>
+    <item android:title="@string/item_history" android:id="@+id/historyItem" android:icon="@drawable/ic_history"/>
+    <item android:title="@string/item_account" android:id="@+id/accountItem" android:icon="@drawable/ic_account"/>
+</menu>

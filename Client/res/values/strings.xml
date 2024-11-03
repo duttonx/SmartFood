@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SmartFood</string>
+    <string name="menu_header_login">Логин: </string>
+    <string name="item_main">Главная</string>
+    <string name="item_sickness">Заболевания</string>
+    <string name="item_bank">Финансовая информация</string>
+    <string name="item_physique">Телосложение</string>
+    <string name="item_history">История</string>
+    <string name="item_account">Аккаунт</string>
+    <string name="save">Сохранить</string>
+    <string-array name="sex">
+        <item>Мужчина</item>
+        <item>Женщина</item>
+    </string-array>
+    <string-array name="activity_level">
+        <item>Сидячий образ жизни</item>
+        <item>Умеренная активность</item>
+        <item>Высокая активность</item>
+        <item>Очень высокая активность</item>
+    </string-array>
+</resources>
